@@ -1,0 +1,16 @@
+# Ignore Python cache and temporary folders
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+
+# Ignore large data or generated model files
+*.csv
+*.xlsx
+*.pkl
+*.log
+
+# Ignore OS or editor files
+.DS_Store
+Thumbs.db
