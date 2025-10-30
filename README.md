@@ -1,9 +1,10 @@
-🧠 RD INFRO TECHNO
-LOGY — Data Analysis Internship
+🧠 RD INFRO TECHNOLOGY — Data Analysis Internship
+
 👨‍💻 Intern: Himanshu Gurjar
 🏢 Organization: RD INFRO TECHNOLOGY
 🧾 Duration: October–November 2025
 💻 Environment: WSL (Ubuntu 24.04) + VS Code + Python (3.12)
+
 🎯 Internship Objective
 
 To design and implement a complete data analysis and forecasting pipeline, from data collection → cleaning → transformation → visualization → AI-powered forecasting, using real retail sales data.
@@ -27,7 +28,9 @@ Create a data visualization dashboard using Python, Matplotlib, and Seaborn to p
 Includes:
 
 Task 1 – Data Collection
+
 Task 2 – Data Cleaning
+
 Task 3 – Data Transformation
 
 Features:
@@ -57,18 +60,16 @@ Train a machine learning model to forecast future sales using past performance d
 Includes:
 
 Task 1 – Data Collection
+
 Task 2 – Data Cleaning
+
 Task 3 – Data Transformation
 
 Workflow:
-
-Feature Engineering (Month, Year, Quantity, Price, Profit)
-
-Model Training (Random Forest Regressor)
-
-Evaluation (MAE & R² metrics)
-
-Visualization (Actual vs Predicted, Feature Importance)
+1️⃣ Feature Engineering (Month, Year, Quantity, Price, Profit)
+2️⃣ Model Training (Random Forest Regressor)
+3️⃣ Evaluation (MAE & R² metrics)
+4️⃣ Visualization (Actual vs Predicted, Feature Importance)
 
 Output Folder: FullProject_SalesForecasting/
 
@@ -108,7 +109,7 @@ Core Drivers: Quantity and Price per Unit most strongly influence total revenue.
 🧾 Dataset Source
 
 Retail Sales Dataset (Kaggle):
-Retail Sales Dataset – Kaggle
+🔗 Retail Sales Dataset – Kaggle
 
 🏁 Outcome
 
@@ -120,7 +121,7 @@ Statistical & Visual Analysis
 
 AI-based Forecasting with Model Visualization
 
-This project demonstrates real-world data analyst and AI/ML integration skills, ready for deployment and dashboard extensions (Plotly/Streamlit/Power BI).
+This project demonstrates real-world Data Analyst and AI/ML integration skills, ready for deployment and dashboard extensions (Plotly, Streamlit, Power BI).
 
 💬 Author
 
