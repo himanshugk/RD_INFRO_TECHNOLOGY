@@ -1,133 +1,176 @@
-🧠 RD INFRO TECHNOLOGY — Data Analysis Internship
+# RD INFRO TECHNOLOGY — Retail Sales Analytics & Forecasting
 
-👨‍💻 Intern: Himanshu Gurjar
-🏢 Organization: RD INFRO TECHNOLOGY
-🧾 Duration: October–November 2025
-💻 Environment: WSL (Ubuntu 24.04) + VS Code + Python (3.12)
+**Intern:** Himanshu Gurjar  
+**Role:** Data Analytics Intern  
+**Organization:** RD INFRO TECHNOLOGY  
+**Duration:** October–November 2025  
+**Environment:** WSL (Ubuntu 24.04) · Jupyter Notebook · Python 3.12 · Git & GitHub  
 
-🎯 Internship Objective
+---
 
-To design and implement a complete data analysis and forecasting pipeline, from data collection → cleaning → transformation → visualization → AI-powered forecasting, using real retail sales data.
+## 📌 Internship Objective
 
-This internship was divided into 3 official tasks and 2 integrated projects that demonstrate full end-to-end data engineering and analytics capability.
+Build an end-to-end **Retail Sales Analytics Pipeline** consisting of:
 
-🧩 Internship Tasks Overview
-Task	Title	Description	Included In Project
-Task 1	🧾 Data Collection	Collected retail sales dataset and combined it with real-time exchange rate API data.	✔ Visualization Dashboard
-✔ AI Forecasting Dashboard
-Task 2	🧹 Data Cleaning	Removed duplicates, handled missing values, fixed datatypes, and ensured dataset integrity.	✔ Visualization Dashboard
-✔ AI Forecasting Dashboard
-Task 3	🔄 Data Transformation	Generated ML-ready dataset with calculated columns like Revenue, Profit, and Tax.	✔ Visualization Dashboard
-✔ AI Forecasting Dashboard
-🚀 Integrated Projects
-🧩 Project A — Full Project Visualization & Insights Dashboard
+1. **Data Collection**  
+2. **Data Cleaning**  
+3. **Data Transformation**  
+4. **Visualization & Insights**  
+5. **Machine Learning–based Sales Forecasting**
 
-Goal:
-Create a data visualization dashboard using Python, Matplotlib, and Seaborn to present clear business insights from transformed sales data.
+The project is divided into **3 core tasks** and **2 full projects**.
 
-Includes:
+---
 
-Task 1 – Data Collection
+## 🧱 Core Tasks (Pipeline)
 
-Task 2 – Data Cleaning
+### **Task 1 — Data Collection**
+**Folder:** `Task1_DataCollection/`  
+- Loaded raw CSV datasets  
+- Inspected schema & combined retail dataset  
+- Exported `raw_sales_data.csv`  
 
-Task 3 – Data Transformation
+Files:  
+`Task1.ipynb`, `data_collection.py`
 
-Features:
+---
 
-Revenue vs Profit by Product Category
+### **Task 2 — Data Cleaning**
+**Folder:** `Task2_DataCleaning/`  
+- Handled missing values  
+- Removed duplicates  
+- Converted datatypes  
+- Exported `clean_sales_data.csv`
 
-Monthly Revenue Trend
+Files:  
+`Task2.ipynb`, `data_cleaning.py`
 
-Age vs Revenue Heatmap
+---
 
-Customer Gender Distribution
+### **Task 3 — Data Transformation**
+**Folder:** `Task3_DataTransformation/`  
+- Created new columns (Revenue, Profit, Tax, etc.)  
+- Aggregated and grouped data  
+- Prepared ML-ready dataset  
+- Exported `transformed_sales_data.csv`
 
-Output Folder: Task4_FullProjectVisualization/
+Files:  
+`Task3.ipynb`, `data_transformation.py`
 
-Sample Outputs:
+---
 
-Visualization	Description
-revenue_profit_by_category.png	Category-level business performance
-monthly_revenue_trend.png	Month-over-month sales trend
-age_revenue_heatmap.png	Age-wise purchase behavior
-gender_distribution.png	Customer demographics
-🤖 Project B — AI-Powered Retail Sales Forecasting Dashboard
+## 📊 Project A — Visualization & Insights Dashboard
 
-Goal:
-Train a machine learning model to forecast future sales using past performance data, then visualize model accuracy and feature importance.
+**Folder:** `FullProject_Visualization/`  
+**Notebook:** `visualization.ipynb`  
+**Script:** `full_project_visualization.py`
 
-Includes:
+### Key Visualizations
+- Revenue vs Profit (Category-wise)  
+- Monthly Revenue Trend  
+- Customer Age vs Revenue Heatmap  
+- Gender-wise Purchase Distribution  
 
-Task 1 – Data Collection
+### Output Images
+- `revenue_profit_by_category.png`  
+- `monthly_revenue_trend.png`  
+- `age_revenue_heatmap.png`  
+- `gender_distribution.png`
 
-Task 2 – Data Cleaning
+---
 
-Task 3 – Data Transformation
+## 🤖 Project B — Sales Forecasting (Machine Learning)
 
-Workflow:
-1️⃣ Feature Engineering (Month, Year, Quantity, Price, Profit)
-2️⃣ Model Training (Random Forest Regressor)
-3️⃣ Evaluation (MAE & R² metrics)
-4️⃣ Visualization (Actual vs Predicted, Feature Importance)
+**Folder:** `FullProject_SalesForecasting/`  
+**Notebook:** `salesforecasting.ipynb`  
+**Script:** `full_sales_forecasting.py`
 
-Output Folder: FullProject_SalesForecasting/
+### Model Workflow
+1. Feature Engineering  
+2. Random Forest Regression  
+3. Model Evaluation (MAE, R²)  
+4. Forecast Visualization  
 
-Sample Outputs:
+### Output Images
+- `actual_vs_predicted.png`  
+- `feature_importance.png`  
 
-File	Description
-actual_vs_predicted.png	Model accuracy visualization
-feature_importance.png	Shows which variables drive revenue
-sales_forecast_model.pkl	Saved trained model file
-🧰 Tech Stack
-Category	Tools / Libraries
-Language	Python
-Data Handling	Pandas, NumPy
-Visualization	Matplotlib, Seaborn
-Machine Learning	Scikit-learn
-API Integration	Requests
-Environment	WSL (Ubuntu 24.04) + VS Code
-Version Control	Git + GitHub
-🧱 Project Structure
+---
+
+## 🧰 Tech Stack
+
+| Category | Tools / Libraries |
+|----------|------------------|
+| Language | Python 3.12 |
+| Analytics | pandas, numpy |
+| Visualization | matplotlib, seaborn |
+| Machine Learning | scikit-learn |
+| Notebook | Jupyter Notebook |
+| Environment | WSL (Ubuntu 24.04) |
+| Version Control | Git & GitHub |
+
+---
+
+## 📁 Project Structure
+
+```text
 RD-INFRO-TECHNOLOGY/
- ├── Task1_DataCollection/
- ├── Task2_DataCleaning/
- ├── Task3_DataTransformation/
- ├── Task4_FullProjectVisualization/
- └── FullProject_SalesForecasting/
+├── Task1_DataCollection/
+│   ├── Task1.ipynb
+│   ├── data_collection.py
+├── Task2_DataCleaning/
+│   ├── Task2.ipynb
+│   ├── data_cleaning.py
+├── Task3_DataTransformation/
+│   ├── Task3.ipynb
+│   ├── data_transformation.py
+├── FullProject_Visualization/
+│   ├── visualization.ipynb
+│   ├── full_project_visualization.py
+│   ├── *.png
+├── FullProject_SalesForecasting/
+│   ├── salesforecasting.ipynb
+│   ├── full_sales_forecasting.py
+│   ├── *.png
+├── .gitignore
+└── README.md
 
-📊 Key Insights
 
-Top Categories: Electronics and Fashion consistently generate the highest revenue.
 
-Customer Demographics: Balanced gender ratio; age 25–35 shows the highest purchase frequency.
+▶️ How to Run This Project
 
-Model Accuracy: R² ≈ 1.000 (demo-perfect fit).
+git clone https://github.com/himanshugk/RD_INFRO_TECHNOLOGY
+cd RD_INFRO_TECHNOLOGY
+conda create -n rdtech python=3.12
+conda activate rdtech
+pip install pandas numpy matplotlib seaborn scikit-learn
+jupyter notebook
 
-Core Drivers: Quantity and Price per Unit most strongly influence total revenue.
+Run notebooks in this order:
 
-🧾 Dataset Source
+Task1_DataCollection
 
-Retail Sales Dataset (Kaggle):
-🔗 Retail Sales Dataset – Kaggle
+Task2_DataCleaning
 
-🏁 Outcome
+Task3_DataTransformation
 
-✅ Built a complete Data Analytics & Forecasting System:
+FullProject_Visualization
 
-Data Collection, Cleaning, and Transformation
+FullProject_SalesForecasting
 
-Statistical & Visual Analysis
+🔍 Key Business Insights
 
-AI-based Forecasting with Model Visualization
+Electronics & Fashion are top revenue categories
 
-This project demonstrates real-world Data Analyst and AI/ML integration skills, ready for deployment and dashboard extensions (Plotly, Streamlit, Power BI).
+Customers aged 25–35 contribute the highest spending
 
-💬 Author
+Quantity and Unit Price are major revenue drivers
 
-👨‍💻 Himanshu Gurjar
-B.Tech CSE (AIML Specialization) | Data Analyst & AI Enthusiast
-📍 Jaipur, India
-🔗 LinkedIn Profile
+Random Forest provides reliable sales predictions
 
-🔗 GitHub Projects
+🧑‍💻 Author
+
+Himanshu Gurjar
+B.Tech CSE (AIML) · Data Analytics & AI Enthusiast
+
+GitHub: https://github.com/himanshugk
